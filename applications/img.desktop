@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Image viewer
+Exec=/usr/bin/sxiv -a %u
+Icon=image-viewer
+Comment=
+Path=
+Terminal=false
+StartupNotify=false

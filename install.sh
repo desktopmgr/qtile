@@ -52,7 +52,7 @@ scripts_check
 APPNAME="${APPNAME:-qtile}"
 APPDIR="$CONF/$APPNAME"
 INSTDIR="$CASJAYSDEVSHARE/$SCRIPTS_PREFIX/$APPNAME"
-REPO_BRANCH="${GIT_REPO_BRANCH:-master}"
+REPO_BRANCH="${GIT_REPO_BRANCH:-main}"
 REPO="${DESKTOPMGR:-https://github.com/desktopmgr}/$APPNAME"
 REPORAW="$REPO/raw/$REPO_BRANCH"
 APPVERSION="$(__appversion "$REPORAW/version.txt")"

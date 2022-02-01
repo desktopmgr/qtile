@@ -2,3 +2,5 @@
 ignoredirmessage
 
 __pycache__
+# ignore commit message
+.gitcommit

@@ -1,5 +1,18 @@
 #!/usr/bin/env bash
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+##@Version       : 021320212341-git
+# @Author        : Jason Hempstead
+# @Contact       : jason@casjaysdev.com
+# @License       : WTFPL
+# @ReadME        : autostart.sh --help
+# @Copyright     : Copyright: (c) 2021 Jason Hempstead, CasjaysDev
+# @Created       : Saturday, Feb 13, 2021 23:41 EST
+# @File          : autostart.sh
+# @Description   : autostart script for qtile
+# @TODO          :
+# @Other         :
+# @Resource      :
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 PROG="autostart.sh"
 USER="${SUDO_USER:-$USER}"
 HOME="${USER_HOME:-$HOME}"
@@ -16,19 +29,6 @@ if __does_cmd_exist xrandr && [ -n "$DISPLAY" ]; then
 fi
 # export setting
 export SUDO_ASKPASS DESKTOP_SESSION DESKTOP_SESSION_CONFDIR RESOLUTION
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-##@Version       : 021320212341-git
-# @Author        : Jason Hempstead
-# @Contact       : jason@casjaysdev.com
-# @License       : WTFPL
-# @ReadME        : autostart.sh --help
-# @Copyright     : Copyright: (c) 2021 Jason Hempstead, CasjaysDev
-# @Created       : Saturday, Feb 13, 2021 23:41 EST
-# @File          : autostart.sh
-# @Description   : autostart script for qtile
-# @TODO          :
-# @Other         :
-# @Resource      :
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Set functions
 __is_running() { __get_pid "$1" &>/dev/null && return 0 || return 1; }

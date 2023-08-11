@@ -3,7 +3,7 @@
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # @Author      : Jason
-# @Contact     : casjaysdev@casjay.net
+# @Contact     : casjaysdev@casjay.pro
 # @File        : config
 # @Created     : Mon, Dec 23, 2019, 14:13 EST
 # @License     : WTFPL
